@@ -58,7 +58,7 @@ All data is saved in .txt file type
 
 Data about the Bill
 
-[Billing ID], [User Name], [Payment Type], [Amount Paid], [Order ID list]
+```[Billing ID], [User Name], [Payment Type], [Amount Paid], [Order ID list]```
 
 
 ## Inventory.txt
