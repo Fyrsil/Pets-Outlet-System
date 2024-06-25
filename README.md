@@ -24,7 +24,7 @@ There will be 3 type of role in the system
 - Manager     : allow to manage inventory, order, billing statement and sales report
 
 
-**Supplier**
+## Supplier
 
 There is only one account for supplier
 
@@ -36,10 +36,12 @@ The system allows supplier to refill the stock
 
 The system allows supplier to add new item to the system
 
+## Manager
 
-**User**
+## User
 
 All registered account later on will 
+
 
 
 # Database
