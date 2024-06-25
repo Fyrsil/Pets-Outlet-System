@@ -62,8 +62,8 @@ Data about the Bill
 
 ```[Billing ID], [User Name], [Payment Type], [Amount Paid], [Order ID list]```
 
-- Billing ID will be generated automatically
 - Payment only accept Credit card or Debit card 
+- Billing ID will be generated automatically
 
 
 ## Inventory.txt
@@ -73,23 +73,27 @@ Data about the inventory
 ```[Item Name], [Item ID], [Item Price], [Item Weight], [Item Quantity]```
 
 - Besides Item ID, all the attributes is set by the supplier
+- Item ID will be generated automatically
 
 ## Order.txt
 
 Data about the Order
 
 ```[Item Name], [Order ID], [User Name], [Quantity Purchase],[Item Price]```
-
+- Quantity Purchase is determined by the user
+- Order ID will be generated automatically
 
 ## Report.txt
 
-Data about the Report
+Data about the Report base on the bill that is completed
 
 ```[Report ID], [Amount Paid], [Billing ID list]```
-
+- Amount Paid is depends on the billing in the list
+- Report ID will be generated automatically
 
 ## User.txt
 
 Data about the User.
 
 ```[User Name], [User email], [User Password]```
+- Only manager and supllier is hardcoded, the user will be created by the user
