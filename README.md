@@ -1,21 +1,21 @@
 # Overview
-It is a system that allow user to buy, add or edit the item in the system
+It is a system that allow user to buy, add or edit the item in the system.
 
 
-**Login**
+## Login
 
-When the system starts, it required user to login
+When the system starts, it required user to login.
 
-If it is the first time login, register for a new account is required
+If it is the first time login, register for a new account is required.
 
-**Register**
+## Register
 
 All registered account will be an User account
 
 
 
 # Role
-There will be 3 type of role in the system
+There will be 3 type of role in the system.
 
 - Supplier    : allow to refill the stock in inventory or add new item in inventory
 
@@ -48,10 +48,12 @@ The system allows manager to manage order, manage inventory, manage billing, gen
 
 ## User
 
-All registered account later on will be set as User as default
+All registered account later on will be set as User as default.
+
+The system allows user to make order and make payment. 
 
 # Database
-All data is saved in .txt file type
+All data is saved in .txt file type.
 
 
 ## Billing.txt
@@ -60,6 +62,9 @@ Data about the Bill
 
 ```[Billing ID], [User Name], [Payment Type], [Amount Paid], [Order ID list]```
 
+- Billing ID will be generated automatically
+- Payment only accept Credit card or Debit card 
+
 
 ## Inventory.txt
 
@@ -67,6 +72,7 @@ Data about the inventory
 
 ```[Item Name], [Item ID], [Item Price], [Item Weight], [Item Quantity]```
 
+- Besides Item ID, all the attributes is set by the supplier
 
 ## Order.txt
 
@@ -82,7 +88,8 @@ Data about the Report
 ```[Report ID], [Amount Paid], [Billing ID list]```
 
 
-## **User.txt**
+## User.txt
 
 Data about the User.
+
 ```[User Name], [User email], [User Password]```
