@@ -14,7 +14,8 @@ All registered account will be an User account
 
 # Role
 There will be 3 type of role in the system
-Supplier    : allow to refill the stock in inventory or add new item in inventory
+
+Supplier<sp>: allow to refill the stock in inventory or add new item in inventory
 User        : allow to purchase item in the inventory
 Manager     : allow to manage inventory, order, billing statement and sales report
 
