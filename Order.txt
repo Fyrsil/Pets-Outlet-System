@@ -1,3 +1,4 @@
-Cat_Food, O001, Jia Han, 12, 10.0, 35.0
-Aquarium, O002, Jia Han, 1, 20.0, 80.0
-Fish_Food, O003, Jia Han, 20, 0.5, 5.0
+Cat_Food, O001, John, 12, 10.0, 35.0
+Aquarium, O002, John, 1, 20.0, 80.0
+Fish_Food, O003, John, 20, 0.5, 5.0
+Dog_Food, O004, John, 23, 10.0, 30.0

@@ -1330,14 +1330,19 @@ public class ConsoleUI {
 						System.out.println("\tTotal amount : RM " + String.format("%.2f",total));
 						System.out.println("\n\t" + "-".repeat(40));
 						System.out.println("\n\tEnter 'S' to save or 'C' to cancel saving.");
+						System.out.print("\n\tEnter (Q) to exit. ");
 						System.out.print("\n\tEnter your option > ");
 						String saveOpt = scanner.next();
+						if(saveOpt.toUpperCase().equals("Q")) {
+							createReportLoop = false;
+						}
 						// Report generation confirmation
-						if(saveOpt.toUpperCase().equals("S")) {
+						else if(saveOpt.toUpperCase().equals("S")) {
 							// Update Report List
 							controller.addNewReport(newBillingIdList, total);
 							System.out.print("\n\tNew Report saved successfully.");
 							System.out.print("\tEnter anything to proceed...");
+							createReportLoop = false;
 							scanner.nextLine();
 							scanner.nextLine();
 						}
@@ -1345,6 +1350,7 @@ public class ConsoleUI {
 							System.out.println("");
 							System.out.print("\n\tNew Report saving cancel.");
 							System.out.print("\tEnter anything to proceed...");
+							createReportLoop = false;
 							scanner.nextLine();
 							scanner.nextLine();
 						}

@@ -27,6 +27,21 @@ All registered account later on will
 #Database
 All data is saved in .txt file type
 
+#Billing.txt
+Data about the Bill
+[Billing ID], [User Name], [Payment Type], [Amount Paid], [Order ID list]
+
 #Inventory.txt
-It store all the data about the inventory
-[Item name], [Item ID]
+Data about the inventory
+[Item Name], [Item ID], [Item Price], [Item Weight], [Item Quantity]
+
+#Order.txt
+Data about the Order
+[Item Name], [Order ID], [User Name], [Quantity Purchase],[Item Price]
+
+#Report.txt
+Data about the Report
+[Report ID], [Amount Paid], 
+
+#User.txt
+Data about the User
