@@ -2,8 +2,9 @@
 It is a system that allow user to buy, add or edit the item in the system
 
 * Login
+
 When the system starts, it required user to login
-If it is the first time     login, register for a new account is required
+If it is the first time login, register for a new account is required
 
 # Register
 All registered account will be an User account
