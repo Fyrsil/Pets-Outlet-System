@@ -65,23 +65,24 @@ Data about the Bill
 
 Data about the inventory
 
-[Item Name], [Item ID], [Item Price], [Item Weight], [Item Quantity]
+```[Item Name], [Item ID], [Item Price], [Item Weight], [Item Quantity]```
 
 
 ## Order.txt
 
 Data about the Order
 
-[Item Name], [Order ID], [User Name], [Quantity Purchase],[Item Price]
+```[Item Name], [Order ID], [User Name], [Quantity Purchase],[Item Price]```
 
 
 ## Report.txt
 
 Data about the Report
 
-[Report ID], [Amount Paid], [Billing ID list]
+```[Report ID], [Amount Paid], [Billing ID list]```
 
 
-## User.txt
+## **User.txt**
 
 Data about the User.
+```[User Name], [User email], [User Password]```
