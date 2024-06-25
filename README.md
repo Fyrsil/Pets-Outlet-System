@@ -30,13 +30,17 @@ There is only one account for supplier
 
 - email       : supplier@gmail.com
 
-- pw          : igotpower
+- pw          : iaddstuff
 
 The system allows supplier to refill the stock
 
 The system allows supplier to add new item to the system
 
 ## Manager
+
+- email : manager@gmail.com
+
+- pw : igotpower
 
 ## User
 
