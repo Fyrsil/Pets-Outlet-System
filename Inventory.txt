@@ -1,0 +1,10 @@
+Dog_Food, I001, 30.0, 10.0, 50
+Cat_Food, I002, 35.0, 10.0, 50
+Collars, I003, 5.5, 0.3, 100
+Cat_litter, I004, 25.9, 8.0, 30
+Cage, I005, 40.3, 15.5, 10
+Hamster_Food, I006, 10.0, 2.0, 80
+Aquarium, I007, 80.0, 20.0, 30
+Fish_Food, I008, 5.0, 0.5, 60
+Bird_Food, I009, 8.0, 0.5, 50
+Rabbit_Food, I010, 10.0, 11.5, 60
