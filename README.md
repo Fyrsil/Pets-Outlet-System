@@ -1,7 +1,7 @@
 # Overview
 It is a system that allow user to buy, add or edit the item in the system
 
-# Login
+* Login
 When the system starts, it required user to login
 If it is the first time     login, register for a new account is required
 
@@ -27,7 +27,7 @@ All registered account later on will
 # Database
 All data is saved in .txt file type
 
-# Billing.txt
+Billing.txt
 Data about the Bill
 [Billing ID], [User Name], [Payment Type], [Amount Paid], [Order ID list]
 
