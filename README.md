@@ -17,20 +17,20 @@ All registered account will be an User account
 # Role
 There will be 3 type of role in the system
 
-Supplier    : allow to refill the stock in inventory or add new item in inventory
+- Supplier    : allow to refill the stock in inventory or add new item in inventory
 
-User        : allow to purchase item in the inventory
+- User        : allow to purchase item in the inventory
 
-Manager     : allow to manage inventory, order, billing statement and sales report
+- Manager     : allow to manage inventory, order, billing statement and sales report
 
 
 **Supplier**
 
 There is only one account for supplier
 
-email       : supplier@gmail.com
+- email       : supplier@gmail.com
 
-pw          : igotpower
+- pw          : igotpower
 
 The system allows supplier to refill the stock
 
