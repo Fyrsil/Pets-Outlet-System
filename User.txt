@@ -1,4 +1,4 @@
 Supplier, supplier@gmail.com, iaddstuff
 Manager, manager@gmail.com, igotpower
-Jia Han, jiahan@gmail.com, abc123
-Key Wen, kyewen@gmail,com, typoformymail
+John, client1@gmail.com, abc123
+Kelly, client2@gmail,com, 321cba
