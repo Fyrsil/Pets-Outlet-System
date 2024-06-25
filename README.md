@@ -26,17 +26,21 @@ There will be 3 type of role in the system
 
 ## Supplier
 
-There is only one account for supplier
+There is only one account for supplier.
+
+The system allows supplier to refill the stock.
+
+The system allows supplier to add new item to the system.
 
 - email       : supplier@gmail.com
 
 - pw          : iaddstuff
 
-The system allows supplier to refill the stock
-
-The system allows supplier to add new item to the system
-
 ## Manager
+
+There is only one account for manager.
+
+The system allows manager to manage order, manage inventory, manage billing, generate new report and view report.
 
 - email : manager@gmail.com
 
@@ -44,42 +48,40 @@ The system allows supplier to add new item to the system
 
 ## User
 
-All registered account later on will 
-
-
+All registered account later on will be set as User as default
 
 # Database
 All data is saved in .txt file type
 
 
-**Billing.txt**
+## Billing.txt
 
 Data about the Bill
 
 [Billing ID], [User Name], [Payment Type], [Amount Paid], [Order ID list]
 
 
-**Inventory.txt**
+## Inventory.txt
 
 Data about the inventory
 
 [Item Name], [Item ID], [Item Price], [Item Weight], [Item Quantity]
 
 
-**Order.txt**
+## Order.txt
 
 Data about the Order
 
 [Item Name], [Order ID], [User Name], [Quantity Purchase],[Item Price]
 
 
-**Report.txt**
+## Report.txt
 
 Data about the Report
 
 [Report ID], [Amount Paid], [Billing ID list]
 
 
-**User.txt**
+## User.txt
 
-Data about the User
+Data about the User.
