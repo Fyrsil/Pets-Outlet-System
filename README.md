@@ -12,6 +12,8 @@ If it is the first time login, register for a new account is required
 
 All registered account will be an User account
 
+
+
 # Role
 There will be 3 type of role in the system
 
@@ -21,34 +23,50 @@ User        : allow to purchase item in the inventory
 
 Manager     : allow to manage inventory, order, billing statement and sales report
 
-# Supplier
+
+**Supplier**
+
 There is only one account for supplier
+
 email       : supplier@gmail.com
+
 pw          : igotpower
+
 The system allows supplier to refill the stock
+
 The system allows supplier to add new item to the system
 
-# User
+**User**
+
 All registered account later on will 
 
 # Database
 All data is saved in .txt file type
 
-Billing.txt
+**Billing.txt**
+
 Data about the Bill
+
 [Billing ID], [User Name], [Payment Type], [Amount Paid], [Order ID list]
 
-# Inventory.txt
+**Inventory.txt**
+
 Data about the inventory
+
 [Item Name], [Item ID], [Item Price], [Item Weight], [Item Quantity]
 
-# Order.txt
+**Order.txt**
+
 Data about the Order
+
 [Item Name], [Order ID], [User Name], [Quantity Purchase],[Item Price]
 
-# Report.txt
-Data about the Report
-[Report ID], [Amount Paid], 
+**Report.txt**
 
-# User.txt
+Data about the Report
+
+[Report ID], [Amount Paid], [Billing ID list]
+
+**User.txt**
+
 Data about the User
