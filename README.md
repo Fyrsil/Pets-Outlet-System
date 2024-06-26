@@ -1,6 +1,7 @@
 # Overview
 It is a system that allow user to buy, add or edit the item in the system.
 
+Run the MainApp.java to run the program
 
 ## Login
 
