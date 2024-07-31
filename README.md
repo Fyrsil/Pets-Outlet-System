@@ -92,9 +92,13 @@ Data about the Report base on the bill that is completed
 - Amount Paid is depends on the billing in the list
 - Report ID will be generated automatically
 
-## User.txt
+## User.txtK
 
 Data about the User.
 
 ```[User Name], [User email], [User Password]```
 - Only manager and supllier is hardcoded, the user will be created by the user
+
+# Special Thanks to
+
+Tan Kye Wen, Chen Jia Han and Goo Zhe Hao
