@@ -101,4 +101,4 @@ Data about the User.
 
 # Special Thanks to
 
-Tan Kye Wen, Chen Jia Han and Goo Zhe Hao
+Tan Kye Wen, Chen Jia Han and Goo Zhe Hao in completing the project
